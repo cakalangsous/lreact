@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 const Home = () => {
-    const BASE_URL = 'http://localhost:8000/api';
+    const BASE_URL = 'http://test.benkin.id/api';
 
     const [blogs, setBlog] = useState(null);
 
