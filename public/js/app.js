@@ -2191,7 +2191,7 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 var Home = function Home() {
-  var BASE_URL = 'http://localhost:8000/api';
+  var BASE_URL = 'http://test.benkin.id/api';
 
   var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(null),
       _useState2 = _slicedToArray(_useState, 2),
